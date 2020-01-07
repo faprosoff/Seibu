@@ -1,0 +1,54 @@
+﻿@model List<GestionDeSeibu.Models.Curso>
+
+@{
+    ViewBag.Title = "Listado de Cursos";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table table-striped" id="TablaListadoCursos">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Día</th>
+            <th>Horario</th>
+            <th>Precio General</th>
+            <th>Precio Socios</th>
+            <th>Tope de Inscriptos</th>
+            <th>Profesor</th>
+            <th>Modificar</th>
+            <th>Listar Alumnos</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var curso in Model)
+        {
+            <tr>
+                <td>@curso.IdCurso</td>
+                <td>@curso.Nombre</td>
+                <td>@curso.Dia</td>
+                <td>@curso.Horario.ToString(@"hh\:mm")Hs.</td>
+                <td>$@curso.PrecioNoSocio</td>
+                <td>$@curso.PrecioSocio</td>
+                <td>@curso.CantTopeInscriptos</td>
+                <td>@curso.Profesor.Nombre @curso.Profesor.Apellido</td>
+                <td>@Html.ActionLink("Editar", "ModificarCurso", new { id = curso.IdCurso })</td>
+                <td>@Html.ActionLink("Listar Alumnos", "MostrarAlumnosCurso", new { id = curso.IdCurso })</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('#TablaListadoCursos').DataTable({
+                "language": {
+                    "url": "http://cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json"
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ConexionABD.Models.Pago>
+
+@{
+    ViewBag.Title = "Listado de Pagos";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<h4>Cuenta Corriente de @ViewBag.nombreAlumno @ViewBag.apellidoAlumno</h4>
+
+<h3>Saldo: $@ViewBag.saldo</h3>
+
+<table class="table table-striped" id="TablaListadoPagos">
+    <thead>
+        <tr>
+            <th>Fecha</th>
+            <th>Número de Factura</th>
+            <th>Concepto</th>
+            <th>Monto a Pagar</th>
+            <th>Monto Cobrado</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var pago in Model)
+        {
+            <tr>
+                <td>@pago.Fecha.ToString("dd/MM/yyyy")</td>
+                <td>@pago.NroFactura</td>
+                <td>@pago.Detalle</td>
+                <td>$@pago.Cobro</td>
+                <td>$@pago.MontoPago</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('#TablaListadoPagos').DataTable({
+                "language": {
+                    "url": "http://cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json"
+                }
+            });
+        });
+    </script>
+}

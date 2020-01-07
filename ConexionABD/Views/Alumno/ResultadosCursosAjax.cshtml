@@ -1,0 +1,7 @@
+﻿@model IEnumerable<GestionDeSeibu.Models.Curso>
+<select class="form-control" id="select_result_cursos">
+    @foreach (var curso in Model)
+    {
+        <option value="@curso.IdCurso">@curso.Nombre - @curso.Profesor.Nombre @curso.Profesor.Apellido - @curso.Dia @curso.Horario.ToString(@"hh\:mm")Hs.</option>
+    }
+</select>

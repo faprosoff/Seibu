@@ -1,0 +1,61 @@
+﻿@model IEnumerable<GestionDeSeibu.Models.Alumno>
+
+@{
+    ViewBag.Title = "Listado de Alumnos del Curso";
+}
+
+<h2>@ViewBag.Title @ViewBag.nombreCurso</h2>
+
+<h4>Profesor @ViewBag.nombreProfesorCurso @ViewBag.apellidoProfesorCurso</h4>
+
+<table class="table table-striped" id="tablaAlumnosCursos">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>DNI</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>E-Mail</th>
+            <th>¿Es Socio?</th>
+            <th>Número de Socio</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var alumno in Model)
+        {
+            String nroSocio = alumno.NroSocio.ToString();
+
+            if (nroSocio.Equals("0"))
+            {
+                nroSocio = "-";
+            }
+
+            <tr>
+                <td>@alumno.Nombre</td>
+                <td>@alumno.Apellido</td>
+                <td>@alumno.Dni</td>
+                <td>@alumno.Direccion</td>
+                <td>@alumno.Telefono</td>
+                <td>@alumno.Email</td>
+                <td>@(alumno.EsSocio ? "Si" : "No")</td>
+                <td>@nroSocio</td>
+                <td>@Html.ActionLink("Eliminar", "EliminarAlumnoDeCurso", "Curso", new { idAlumno = alumno.Id, idCurso = ViewBag.idCurso }, null)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('#tablaAlumnosCursos').DataTable({
+                "language": {
+                    "url": "http://cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json"
+                }
+            });
+        });
+    </script>
+}

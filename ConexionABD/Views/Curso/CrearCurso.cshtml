@@ -1,0 +1,116 @@
+﻿@model GestionDeSeibu.Models.Curso
+
+@{
+    ViewBag.Title = "Crear Curso";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Nombre, "Nombre", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Dia, "Día", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Dia, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Dia, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Horario, "Horario", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Horario, new { htmlAttributes = new { @type = "time", @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Horario, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PrecioNoSocio, "Precio General", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PrecioNoSocio, new { htmlAttributes = new { @class = "form-control", min = 0 } })
+                @Html.ValidationMessageFor(model => model.PrecioNoSocio, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PrecioSocio, "Precio Socios", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PrecioSocio, new { htmlAttributes = new { @class = "form-control", min = 0 } })
+                @Html.ValidationMessageFor(model => model.PrecioSocio, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CantTopeInscriptos, "Tope de Inscriptos", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CantTopeInscriptos, new { htmlAttributes = new { @class = "form-control", min = 1, max = 100 } })
+                @Html.ValidationMessageFor(model => model.CantTopeInscriptos, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-2 text-right">Profesor</label>
+            <div class="col-md-10">
+                <select class="form-control" name="idProfesor">
+                    @foreach (var profesor in ViewBag.data)
+                    {
+                        <option value="@profesor.Id">@profesor.Nombre @profesor.Apellido</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="reset" value="Borrar Campos" class="btn btn-danger" />
+                <input type="submit" value="Crear Curso" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    <input type="button" class="btn btn-warning" value="Cancelar" onclick="location.href='@Url.Action("ListarCursos", "Curso")'" />
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+        $('#PrecioSocio').on('keyup', function () {
+            if ($(this).val() < 0) {
+                alert('Valor no válido')
+            }
+        })
+    </script>
+
+    <script>
+        $('#PrecioNoSocio').on('keyup', function () {
+            if ($(this).val() < 0) {
+                alert('Valor no válido')
+            }
+        })
+    </script>
+
+    <script>
+        $('#CantTopeInscriptos').on('keyup', function () {
+            if ($(this).val() < 1) {
+                alert('Valor no válido')
+            }
+        })
+    </script>
+}

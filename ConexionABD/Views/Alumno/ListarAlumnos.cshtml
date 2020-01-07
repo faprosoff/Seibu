@@ -1,0 +1,64 @@
+﻿@model List<GestionDeSeibu.Models.Alumno>
+
+@{
+    ViewBag.Title = "Listado de Alumnos";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table table-striped" id="TablaListadoAlumnos">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>DNI</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>E-Mail</th>
+            <th>Socio</th>
+            <th>Nro_Socio</th>
+            <th>Modificar</th>
+            <th>Crear_Pago</th>
+            <th>Listar_Pagos</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var alumno in Model)
+        {
+
+            String nroSocio = alumno.NroSocio.ToString();
+
+            if (nroSocio.Equals("0"))
+            {
+                nroSocio = "-";
+            }
+  
+            <tr>
+                <td>@alumno.Nombre</td>
+                <td>@alumno.Apellido</td>
+                <td>@alumno.Dni</td>
+                <td>@alumno.Direccion</td>
+                <td>@alumno.Telefono</td>
+                <td>@alumno.Email</td>
+                <td>@(alumno.EsSocio ? "Si" : "No")</td>
+                <td>@nroSocio</td>
+                <td>@Html.ActionLink("Editar", "ModificarAlumno", new { id = alumno.Id })</td>
+                <td>@Html.ActionLink("Crear Pago", "CrearPago", "Pago", new { id = alumno.Id }, null)</td>
+                <td>@Html.ActionLink("Listar Pagos", "ListarPagosAlumno", "Pago", new { id = alumno.Id }, null)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('#TablaListadoAlumnos').DataTable({
+                "language": {
+                    "url": "http://cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json"
+                }
+            });
+        });
+    </script>
+}

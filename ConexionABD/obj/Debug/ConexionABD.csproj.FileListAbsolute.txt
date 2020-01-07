@@ -1,0 +1,198 @@
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\ApplicationInsights.config
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\ConexionABD.dll.config
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\ConexionABD.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\ConexionABD.pdb
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\csc.exe
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\csc.exe.config
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\csc.rsp
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\csi.exe
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\csi.exe.config
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\csi.rsp
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.AppContext.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Console.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.IO.Compression.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.IO.Pipes.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Security.Claims.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Threading.Thread.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.ValueTuple.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\vbc.exe
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\vbc.exe.config
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\vbc.rsp
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\VBCSCompiler.exe
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Antlr3.Runtime.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.AI.Web.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Newtonsoft.Json.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.Helpers.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.Mvc.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.Optimization.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.Razor.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.WebPages.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.WebPages.Razor.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\WebGrease.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.Helpers.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.Mvc.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.Optimization.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.Razor.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.WebPages.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\System.Web.WebPages.Razor.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Antlr3.Runtime.pdb
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Newtonsoft.Json.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\Microsoft.AI.Web.xml
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\es\System.Web.Helpers.resources.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\es\System.Web.Mvc.resources.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\es\System.Web.Optimization.resources.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\es\System.Web.Razor.resources.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\es\System.Web.WebPages.resources.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\obj\Debug\ConexionABD.csprojResolveAssemblyReference.cache
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\obj\Debug\ConexionABD.csproj.CoreCompileInputs.cache
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\obj\Debug\ConexionABD.csproj.CopyComplete
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\obj\Debug\ConexionABD.dll
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\obj\Debug\ConexionABD.pdb
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\ApplicationInsights.config
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\ConexionABD.dll.config
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\ConexionABD.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\ConexionABD.pdb
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\csc.exe
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\csc.exe.config
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\csc.rsp
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\csi.exe
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\csi.exe.config
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\csi.rsp
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.AppContext.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Console.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.IO.Compression.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.IO.Pipes.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Security.Claims.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Threading.Thread.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.ValueTuple.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\vbc.exe
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\vbc.exe.config
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\vbc.rsp
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\VBCSCompiler.exe
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Antlr3.Runtime.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.AI.Web.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Newtonsoft.Json.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.Helpers.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.Mvc.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.Optimization.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.Razor.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.WebPages.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.WebPages.Razor.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\WebGrease.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.Helpers.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.Mvc.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.Optimization.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.Razor.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.WebPages.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\System.Web.WebPages.Razor.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Antlr3.Runtime.pdb
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Newtonsoft.Json.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\Microsoft.AI.Web.xml
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\es\System.Web.Helpers.resources.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\es\System.Web.Mvc.resources.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\es\System.Web.Optimization.resources.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\es\System.Web.Razor.resources.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\es\System.Web.WebPages.resources.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\obj\Debug\ConexionABD.csprojResolveAssemblyReference.cache
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\obj\Debug\ConexionABD.csproj.CoreCompileInputs.cache
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\obj\Debug\ConexionABD.csproj.CopyComplete
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\obj\Debug\ConexionABD.dll
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\obj\Debug\ConexionABD.pdb
+C:\Users\nicok\Google Drive\1 ORT INSTITUTO\Taller 4\ConexionABD\ConexionABD\bin\roslyn\desktop.ini
+C:\Users\nicok\Desktop\ConexionABD\ConexionABD\bin\roslyn\desktop.ini

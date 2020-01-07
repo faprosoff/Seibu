@@ -1,0 +1,186 @@
+﻿@{
+    ViewBag.Title = "Asignar Alumno a Curso";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form action="/" method="post">
+    <div class="form-horizontal">
+        <hr />
+        <h3>Alumno</h3>
+        <div class="form-group">
+            <div class="col-md-6">
+                <label>Nombre</label>
+                <input class="form-control" type="text" id="alu_nombre" value="" />
+            </div>
+            <div class="col-md-6">
+                <label>Apellido</label>
+                <input class="form-control" type="text" id="alu_apellido" value="" />
+            </div>
+            <div class="col-md-6">
+                <label>DNI</label>
+                <input class="form-control" type="number" id="alu_dni" value="" min="0" />
+            </div>
+            <div class="col-md-6">
+                <br />
+                <input type="button" value="Buscar Alumno" id="btnBuscarAlumno" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+</form>
+<hr />
+<form action="/" method="post">
+    <div class="form-horizontal">
+        <h3>Curso</h3>
+        <div class="form-group">
+            <div class="col-md-6">
+                <label>Nombre del Curso</label>
+                <input class="form-control" type="text" id="curso_nombre" value="" />
+            </div>
+            <div class="col-md-6">
+                <label>Nombre del Profesor</label>
+                <input class="form-control" type="text" id="curso_profesor" value="" />
+            </div>
+            <div class="col-md-6">
+                <label>Horario</label>
+                <input class="form-control" type="time" id="curso_horario" value="" />
+            </div>
+            <div class="col-md-6">
+                <br />
+                <input type="button" value="Buscar Curso" class="btn btn-success" id="btnBuscarCurso" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div class="col-md-12">
+    <div class="col-md-4" id="resultAlumnos">
+    </div>
+
+    <div class="col-md-4" id="resultCursos">
+    </div>
+</div>
+
+<div>
+    <br /><br />
+    <button class="btn btn-primary" onclick="AsignarAlumno()">Asignar Alumno</button>
+    <input type="button" class="btn btn-warning" value="Cancelar" onclick="location.href='@Url.Action("ListarCursos", "Curso")'" />
+</div>
+
+<div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"><b>AVISO</b></h5>
+            </div>
+            <h4 class="modal-body" id="cuerpo_modal"></h4>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $('#btnBuscarAlumno').on('click', function () {
+            buscarAlumno();
+        });
+
+        $('#btnBuscarCurso').on('click', function () {
+            console.log("btn cursos click")
+            buscarCurso();
+        })
+
+        function buscarAlumno() {
+            var nombre = document.getElementById('alu_nombre').value
+            var apellido = document.getElementById('alu_apellido').value
+            var dni = document.getElementById('alu_dni').value
+            ejecutarBuscarAlumno(nombre, apellido, dni)
+        }
+        function buscarCurso() {
+            var nombre = document.getElementById('curso_nombre').value
+            var profesor = document.getElementById('curso_profesor').value
+            var horario = document.getElementById('curso_horario').value
+            ejecutarBuscarCurso(nombre, profesor, horario)
+        }
+
+        function ejecutarBuscarAlumno(nombre, apellido, dni) {
+            $.ajax({
+                url: '/Alumno/BuscarAlumnoAjax',
+                data: {
+                    'nombre': nombre,
+                    'apellido': apellido,
+                    'dni': dni
+                },
+                type: 'post',
+                success: function (result) {
+                    //devuelve un partial view
+                    $('#resultAlumnos').empty()
+                    $('#resultAlumnos').append(result)
+                },
+                fail: function (result) {
+                    console.log(result)
+                }
+            })
+        }
+
+        function ejecutarBuscarCurso(nombre, profesor, horario) {
+            $.ajax({
+                url: '/Alumno/BuscarCursoAjax',
+                data: {
+                    'nombre': nombre,
+                    'profesor': profesor,
+                    'horario': horario
+                },
+                type: 'post',
+                success: function (result) {
+                    //devuelve un partial view
+                    $('#resultCursos').empty()
+                    $('#resultCursos').append(result)
+                },
+                fail: function (result) {
+                    console.log(result)
+                }
+            })
+        }
+
+        function AsignarAlumno() {
+            var id_alum = $('#select_result_alumnos').find(':selected').val()
+            var id_curso = $('#select_result_cursos').find(':selected').val()
+            if (id_alum != null && id_curso != null) {
+                $.ajax({
+                    url: '/Curso/ValidarYAsignar',
+                    data: {
+                        'id_curso': id_curso,
+                        'id_alum': id_alum
+                    },
+                    type: 'post',
+                    success: function (result) {
+                        $('#cuerpo_modal').empty()
+                        $('#cuerpo_modal').append('<p>' + result + '</p>')
+                        $('.modal').modal('show')
+                    },
+                    fail: function (result) {
+                        console.log("HUBO ERROR EN LA LLAMADA AL AJAX")
+                    }
+                })
+
+            } else {
+                $('#cuerpo_modal').empty()
+                $('#cuerpo_modal').append('<p>Debe seleccionar un alumno y un curso para poder asignar.</p>')
+                $('.modal').modal('show')
+            }
+        }
+    </script>
+
+        @Scripts.Render("~/bundles/jqueryval")
+
+        <script>
+            $('#alu_dni').on('keyup', function () {
+                if ($(this).val() < 0) {
+                    alert('Valor no válido')
+                }
+            })
+        </script>
+    }

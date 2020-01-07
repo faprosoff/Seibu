@@ -1,0 +1,50 @@
+﻿@model List<GestionDeSeibu.Models.Profesor>
+
+@{
+    ViewBag.Title = "Listado de Profesores";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table table-striped" id="TablaListadoProfesores">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>DNI</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>E-Mail</th>
+            <th>Porcentaje de Pago</th>
+            <th>Modificar</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var profesor in Model)
+        {
+            <tr>
+                <td>@profesor.Nombre</td>
+                <td>@profesor.Apellido</td>
+                <td>@profesor.Dni</td>
+                <td>@profesor.Direccion</td>
+                <td>@profesor.Telefono</td>
+                <td>@profesor.Email</td>
+                <td>@profesor.PorcentajePago%</td>
+                <td>@Html.ActionLink("Editar", "ModificarProfesor", new { id = profesor.Id })</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('#TablaListadoProfesores').DataTable({
+                "language": {
+                    "url": "http://cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json"
+                }
+            });
+        });
+    </script>
+}

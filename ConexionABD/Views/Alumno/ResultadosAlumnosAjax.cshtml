@@ -1,0 +1,7 @@
+﻿@model IEnumerable<GestionDeSeibu.Models.Alumno>
+<select class="form-control" id="select_result_alumnos">
+    @foreach (var alumno in Model)
+    {
+        <option value="@alumno.Id">@alumno.Nombre @alumno.Apellido - DNI @alumno.Dni</option>
+    }
+</select>
